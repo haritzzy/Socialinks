@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "tailwindcss": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+    "tailwindcss": "tailwindcss -i src/input.css -o dist/output.css --watch"
   },
   "keywords": [
     "link_directory"
