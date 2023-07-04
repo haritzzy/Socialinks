@@ -4,7 +4,8 @@
   "description": "Koleksi link sosial media",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tailwindcss": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
   },
   "keywords": [
     "link_directory"
@@ -13,5 +14,8 @@
   "license": "ISC",
   "devDependencies": {
     "tailwindcss": "^3.3.2"
+  },
+  "dependencies": {
+    "quote-indo": "^1.1.0"
   }
 }

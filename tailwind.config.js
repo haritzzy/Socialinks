@@ -2,7 +2,14 @@
 module.exports = {
   content: ['index.html'],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'poppins': 'poppins, sans-serif',
+        'inter': 'inter',
+        'pacifico': 'Pacifico, cursive',
+        'dancing-script': 'Dancing Script, cursive'
+      }
+    },
   },
   plugins: [],
 }
