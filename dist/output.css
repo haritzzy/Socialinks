@@ -713,6 +713,14 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.duration-700 {
+  transition-duration: 700ms;
+}
+
+.duration-1000 {
+  transition-duration: 1000ms;
+}
+
 body {
   background-image: url('../dist/img/night-4.jpg');
   background-size: cover;
@@ -756,6 +764,10 @@ body {
 .hover\:ring-white:hover {
   --tw-ring-opacity: 1;
   --tw-ring-color: rgb(255 255 255 / var(--tw-ring-opacity));
+}
+
+.hover\:duration-700:hover {
+  transition-duration: 700ms;
 }
 
 @media (min-width: 1024px) {
